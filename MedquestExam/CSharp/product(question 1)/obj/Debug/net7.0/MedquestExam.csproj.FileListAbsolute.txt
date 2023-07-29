@@ -1,0 +1,45 @@
+D:\yong yang\MedquestExam\bin\Debug\net7.0\MedquestExam.exe
+D:\yong yang\MedquestExam\bin\Debug\net7.0\MedquestExam.deps.json
+D:\yong yang\MedquestExam\bin\Debug\net7.0\MedquestExam.runtimeconfig.json
+D:\yong yang\MedquestExam\bin\Debug\net7.0\MedquestExam.dll
+D:\yong yang\MedquestExam\bin\Debug\net7.0\MedquestExam.pdb
+D:\yong yang\MedquestExam\obj\Debug\net7.0\MedquestExam.csproj.AssemblyReference.cache
+D:\yong yang\MedquestExam\obj\Debug\net7.0\MedquestExam.GeneratedMSBuildEditorConfig.editorconfig
+D:\yong yang\MedquestExam\obj\Debug\net7.0\MedquestExam.AssemblyInfoInputs.cache
+D:\yong yang\MedquestExam\obj\Debug\net7.0\MedquestExam.AssemblyInfo.cs
+D:\yong yang\MedquestExam\obj\Debug\net7.0\MedquestExam.csproj.CoreCompileInputs.cache
+D:\yong yang\MedquestExam\obj\Debug\net7.0\MedquestExam.dll
+D:\yong yang\MedquestExam\obj\Debug\net7.0\refint\MedquestExam.dll
+D:\yong yang\MedquestExam\obj\Debug\net7.0\MedquestExam.pdb
+D:\yong yang\MedquestExam\obj\Debug\net7.0\MedquestExam.genruntimeconfig.cache
+D:\yong yang\MedquestExam\obj\Debug\net7.0\ref\MedquestExam.dll
+D:\yong yang\MedquestExam\CSharp\bin\Debug\net7.0\MedquestExam.exe
+D:\yong yang\MedquestExam\CSharp\bin\Debug\net7.0\MedquestExam.deps.json
+D:\yong yang\MedquestExam\CSharp\bin\Debug\net7.0\MedquestExam.runtimeconfig.json
+D:\yong yang\MedquestExam\CSharp\bin\Debug\net7.0\MedquestExam.dll
+D:\yong yang\MedquestExam\CSharp\bin\Debug\net7.0\MedquestExam.pdb
+D:\yong yang\MedquestExam\CSharp\obj\Debug\net7.0\MedquestExam.csproj.AssemblyReference.cache
+D:\yong yang\MedquestExam\CSharp\obj\Debug\net7.0\MedquestExam.GeneratedMSBuildEditorConfig.editorconfig
+D:\yong yang\MedquestExam\CSharp\obj\Debug\net7.0\MedquestExam.AssemblyInfoInputs.cache
+D:\yong yang\MedquestExam\CSharp\obj\Debug\net7.0\MedquestExam.AssemblyInfo.cs
+D:\yong yang\MedquestExam\CSharp\obj\Debug\net7.0\MedquestExam.csproj.CoreCompileInputs.cache
+D:\yong yang\MedquestExam\CSharp\obj\Debug\net7.0\MedquestExam.dll
+D:\yong yang\MedquestExam\CSharp\obj\Debug\net7.0\refint\MedquestExam.dll
+D:\yong yang\MedquestExam\CSharp\obj\Debug\net7.0\MedquestExam.pdb
+D:\yong yang\MedquestExam\CSharp\obj\Debug\net7.0\MedquestExam.genruntimeconfig.cache
+D:\yong yang\MedquestExam\CSharp\obj\Debug\net7.0\ref\MedquestExam.dll
+D:\yong yang\MedquestExam\CSharp\product(question 1)\bin\Debug\net7.0\MedquestExam.exe
+D:\yong yang\MedquestExam\CSharp\product(question 1)\bin\Debug\net7.0\MedquestExam.deps.json
+D:\yong yang\MedquestExam\CSharp\product(question 1)\bin\Debug\net7.0\MedquestExam.runtimeconfig.json
+D:\yong yang\MedquestExam\CSharp\product(question 1)\bin\Debug\net7.0\MedquestExam.dll
+D:\yong yang\MedquestExam\CSharp\product(question 1)\bin\Debug\net7.0\MedquestExam.pdb
+D:\yong yang\MedquestExam\CSharp\product(question 1)\obj\Debug\net7.0\MedquestExam.csproj.AssemblyReference.cache
+D:\yong yang\MedquestExam\CSharp\product(question 1)\obj\Debug\net7.0\MedquestExam.GeneratedMSBuildEditorConfig.editorconfig
+D:\yong yang\MedquestExam\CSharp\product(question 1)\obj\Debug\net7.0\MedquestExam.AssemblyInfoInputs.cache
+D:\yong yang\MedquestExam\CSharp\product(question 1)\obj\Debug\net7.0\MedquestExam.AssemblyInfo.cs
+D:\yong yang\MedquestExam\CSharp\product(question 1)\obj\Debug\net7.0\MedquestExam.csproj.CoreCompileInputs.cache
+D:\yong yang\MedquestExam\CSharp\product(question 1)\obj\Debug\net7.0\MedquestExam.dll
+D:\yong yang\MedquestExam\CSharp\product(question 1)\obj\Debug\net7.0\refint\MedquestExam.dll
+D:\yong yang\MedquestExam\CSharp\product(question 1)\obj\Debug\net7.0\MedquestExam.pdb
+D:\yong yang\MedquestExam\CSharp\product(question 1)\obj\Debug\net7.0\MedquestExam.genruntimeconfig.cache
+D:\yong yang\MedquestExam\CSharp\product(question 1)\obj\Debug\net7.0\ref\MedquestExam.dll
