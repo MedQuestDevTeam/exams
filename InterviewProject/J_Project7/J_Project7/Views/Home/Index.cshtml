@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container mt-5">
+    <h2 class="mb-4">@ViewData["Title"]</h2>
+    <body>
+        <div id="app">
+            <p>Generated message: {{ message2 }}</p>
+
+            <button v-on:click="checkUrl">Click Me</button>
+    </body>
+
+
+
+</div>
+
+<script>
+    const { createApp } = Vue;
+
+    createApp({
+      data() {
+        return {
+          message2: '',
+        };
+      },
+      methods: {
+        async checkUrl() {
+          try {
+            const response = await fetch("https://alexwohlbruck.github.io/cat-facts/", { method: 'HEAD' });
+            if (response.ok) {
+              this.message2 = 'URL available';
+            }
+          } catch (error) {
+            this.message2 = error;
+          }
+        }
+      }
+    }).mount('#app');
+</script>
