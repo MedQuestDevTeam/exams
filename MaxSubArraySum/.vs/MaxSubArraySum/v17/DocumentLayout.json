@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\Testing\\MaxSubArraySum\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56F9380C-9AFC-4087-8F7F-55C021077069}|MaxSubArraySum\\MaxSubArraySum.csproj|c:\\users\\admin\\desktop\\testing\\maxsubarraysum\\maxsubarraysum\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56F9380C-9AFC-4087-8F7F-55C021077069}|MaxSubArraySum\\MaxSubArraySum.csproj|solutionrelative:maxsubarraysum\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Testing\\MaxSubArraySum\\MaxSubArraySum\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "MaxSubArraySum\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Testing\\MaxSubArraySum\\MaxSubArraySum\\Pages\\Index.cshtml",
+              "RelativeToolTip": "MaxSubArraySum\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T01:54:55.253Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

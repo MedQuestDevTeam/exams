@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\Testing\\WordFreqCountInString\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26BAE33B-35B2-4C0B-A77E-F483DC99EA65}|WordFreqCountInString\\WordFreqCountInString.csproj|c:\\users\\admin\\desktop\\testing\\wordfreqcountinstring\\wordfreqcountinstring\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{26BAE33B-35B2-4C0B-A77E-F483DC99EA65}|WordFreqCountInString\\WordFreqCountInString.csproj|solutionrelative:wordfreqcountinstring\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26BAE33B-35B2-4C0B-A77E-F483DC99EA65}|WordFreqCountInString\\WordFreqCountInString.csproj|c:\\users\\admin\\desktop\\testing\\wordfreqcountinstring\\wordfreqcountinstring\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26BAE33B-35B2-4C0B-A77E-F483DC99EA65}|WordFreqCountInString\\WordFreqCountInString.csproj|solutionrelative:wordfreqcountinstring\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Testing\\WordFreqCountInString\\WordFreqCountInString\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "WordFreqCountInString\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Testing\\WordFreqCountInString\\WordFreqCountInString\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "WordFreqCountInString\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-29T02:16:27.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Testing\\WordFreqCountInString\\WordFreqCountInString\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "WordFreqCountInString\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Testing\\WordFreqCountInString\\WordFreqCountInString\\Pages\\Index.cshtml",
+              "RelativeToolTip": "WordFreqCountInString\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T02:15:57.786Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

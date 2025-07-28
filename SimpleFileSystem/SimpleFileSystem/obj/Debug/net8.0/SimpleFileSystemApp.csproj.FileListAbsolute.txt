@@ -1,0 +1,15 @@
+C:\Users\admin\Desktop\Testing\SimpleFileSystem\SimpleFileSystem\bin\Debug\net8.0\SimpleFileSystemApp.exe
+C:\Users\admin\Desktop\Testing\SimpleFileSystem\SimpleFileSystem\bin\Debug\net8.0\SimpleFileSystemApp.deps.json
+C:\Users\admin\Desktop\Testing\SimpleFileSystem\SimpleFileSystem\bin\Debug\net8.0\SimpleFileSystemApp.runtimeconfig.json
+C:\Users\admin\Desktop\Testing\SimpleFileSystem\SimpleFileSystem\bin\Debug\net8.0\SimpleFileSystemApp.dll
+C:\Users\admin\Desktop\Testing\SimpleFileSystem\SimpleFileSystem\bin\Debug\net8.0\SimpleFileSystemApp.pdb
+C:\Users\admin\Desktop\Testing\SimpleFileSystem\SimpleFileSystem\obj\Debug\net8.0\SimpleFileSystemApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\Testing\SimpleFileSystem\SimpleFileSystem\obj\Debug\net8.0\SimpleFileSystemApp.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\Testing\SimpleFileSystem\SimpleFileSystem\obj\Debug\net8.0\SimpleFileSystemApp.AssemblyInfo.cs
+C:\Users\admin\Desktop\Testing\SimpleFileSystem\SimpleFileSystem\obj\Debug\net8.0\SimpleFileSystemApp.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Testing\SimpleFileSystem\SimpleFileSystem\obj\Debug\net8.0\SimpleFileSystemApp.sourcelink.json
+C:\Users\admin\Desktop\Testing\SimpleFileSystem\SimpleFileSystem\obj\Debug\net8.0\SimpleFileSystemApp.dll
+C:\Users\admin\Desktop\Testing\SimpleFileSystem\SimpleFileSystem\obj\Debug\net8.0\refint\SimpleFileSystemApp.dll
+C:\Users\admin\Desktop\Testing\SimpleFileSystem\SimpleFileSystem\obj\Debug\net8.0\SimpleFileSystemApp.pdb
+C:\Users\admin\Desktop\Testing\SimpleFileSystem\SimpleFileSystem\obj\Debug\net8.0\SimpleFileSystemApp.genruntimeconfig.cache
+C:\Users\admin\Desktop\Testing\SimpleFileSystem\SimpleFileSystem\obj\Debug\net8.0\ref\SimpleFileSystemApp.dll
