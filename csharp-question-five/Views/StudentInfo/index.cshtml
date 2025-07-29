@@ -1,0 +1,35 @@
+@model List<csharp_question_five.Models.StudentInfo>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Information</title>
+</head>
+<body>
+    <h1>Student Information</h1>
+    
+    @foreach (var student in Model)
+    {
+        <h2>@student.StuName</h2>
+        <p>Student ID: @student.StuId</p>
+        <h3>Subjects and Grades:</h3>
+        <table>
+            <tr>
+                <th>Subject Name</th>
+                <th>Grade</th>
+            </tr>
+            @foreach (var subject in student.Subjects)
+            {
+                <tr>
+                    <td>@subject.SubjectName</td>
+                    <td>@subject.SubjectGrade</td>
+                </tr>
+            }
+        </table>
+        <p>Average Grade: @student.CalculateAverageSubjectGrade()</p>
+        <p>Highest Grade: @student.GetHighestSubjectGrade()</p>
+        <p>Lowest Grade: @student.GetLowestSubjectGrade()</p>
+        <hr />
+    }
+</body>
+</html>
