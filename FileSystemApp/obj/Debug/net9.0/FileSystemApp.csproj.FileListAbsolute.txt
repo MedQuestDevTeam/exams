@@ -1,0 +1,15 @@
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\bin\Debug\net9.0\FileSystemApp.exe
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\bin\Debug\net9.0\FileSystemApp.deps.json
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\bin\Debug\net9.0\FileSystemApp.runtimeconfig.json
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\bin\Debug\net9.0\FileSystemApp.dll
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\bin\Debug\net9.0\FileSystemApp.pdb
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\obj\Debug\net9.0\FileSystemApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\obj\Debug\net9.0\FileSystemApp.AssemblyInfoInputs.cache
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\obj\Debug\net9.0\FileSystemApp.AssemblyInfo.cs
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\obj\Debug\net9.0\FileSystemApp.csproj.CoreCompileInputs.cache
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\obj\Debug\net9.0\FileSystemApp.sourcelink.json
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\obj\Debug\net9.0\FileSystemApp.dll
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\obj\Debug\net9.0\refint\FileSystemApp.dll
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\obj\Debug\net9.0\FileSystemApp.pdb
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\obj\Debug\net9.0\FileSystemApp.genruntimeconfig.cache
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\obj\Debug\net9.0\ref\FileSystemApp.dll

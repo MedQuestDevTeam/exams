@@ -1,0 +1,15 @@
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\bin\Debug\net9.0\q5.exe
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\bin\Debug\net9.0\q5.deps.json
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\bin\Debug\net9.0\q5.runtimeconfig.json
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\bin\Debug\net9.0\q5.dll
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\bin\Debug\net9.0\q5.pdb
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\obj\Debug\net9.0\q5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\obj\Debug\net9.0\q5.AssemblyInfoInputs.cache
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\obj\Debug\net9.0\q5.AssemblyInfo.cs
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\obj\Debug\net9.0\q5.csproj.CoreCompileInputs.cache
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\obj\Debug\net9.0\q5.sourcelink.json
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\obj\Debug\net9.0\q5.dll
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\obj\Debug\net9.0\refint\q5.dll
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\obj\Debug\net9.0\q5.pdb
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\obj\Debug\net9.0\q5.genruntimeconfig.cache
+C:\Users\diyuy\OneDrive\桌面\exams-main\exams-3\FileSystemApp\obj\Debug\net9.0\ref\q5.dll
