@@ -5,85 +5,85 @@ class FileSystem
 {
     static void Main()
     {
-        Console.WriteLine("欢迎使用文件系统！");
+        Console.WriteLine("Welcome to the File System!");
         
         while (true)
         {
-            Console.Write("\n你想进行什么操作？（创建/读取/写入/删除/退出）：");
+            Console.Write("\nWhat operation would you like to perform? (create/read/write/delete/exit): ");
             string action = Console.ReadLine().Trim().ToLower();
 
-            if (action == "创建")
+            if (action == "create")
                 CreateFile();
-            else if (action == "读取")
+            else if (action == "read")
                 ReadFile();
-            else if (action == "写入")
+            else if (action == "write")
                 WriteFile();
-            else if (action == "删除")
+            else if (action == "delete")
                 DeleteFile();
-            else if (action == "退出")
+            else if (action == "exit")
                 break;
             else
-                Console.WriteLine("无效操作，请重新输入。");
+                Console.WriteLine("Invalid operation, please try again.");
         }
     }
 
     static void CreateFile()
     {
-        Console.Write("请输入文件名（如 test.txt）：");
+        Console.Write("Please enter the filename (e.g., test.txt): ");
         string filename = Console.ReadLine();
 
         if (File.Exists(filename))
-            Console.WriteLine("文件已存在！");
+            Console.WriteLine("File already exists!");
         else
         {
             File.Create(filename).Close();
-            Console.WriteLine("文件已创建！");
+            Console.WriteLine("File created successfully!");
         }
     }
 
     static void ReadFile()
     {
-        Console.Write("请输入要读取的文件名：");
+        Console.Write("Please enter the filename to read: ");
         string filename = Console.ReadLine();
 
         if (!File.Exists(filename))
-            Console.WriteLine("文件不存在！");
+            Console.WriteLine("File does not exist!");
         else
         {
             string content = File.ReadAllText(filename);
-            Console.WriteLine("文件内容如下：\n" + content);
+            Console.WriteLine("File content:\n" + content);
         }
     }
 
     static void WriteFile()
     {
-        Console.Write("请输入要写入的文件名：");
+        Console.Write("Please enter the filename to write to: ");
         string filename = Console.ReadLine();
 
         if (!File.Exists(filename))
         {
-            Console.WriteLine("文件不存在！");
+            Console.WriteLine("File does not exist!");
             return;
         }
 
-        Console.Write("请输入内容：");
+        Console.Write("Please enter the content: ");
         string content = Console.ReadLine();
 
         File.WriteAllText(filename, content);
-        Console.WriteLine("写入成功！");
+        Console.WriteLine("Write successful!");
     }
 
     static void DeleteFile()
     {
-        Console.Write("请输入要删除的文件名：");
+        Console.Write("Please enter the filename to delete: ");
         string filename = Console.ReadLine();
 
         if (!File.Exists(filename))
-            Console.WriteLine("文件不存在！");
+            Console.WriteLine("File does not exist!");
         else
         {
             File.Delete(filename);
-            Console.WriteLine("文件已删除！");
+            Console.WriteLine("File deleted successfully!");
         }
     }
 }

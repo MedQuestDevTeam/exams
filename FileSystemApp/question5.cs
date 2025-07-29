@@ -23,7 +23,7 @@ class Student
     public void PrintSortedGrades()
     {
         var sorted = Grades.OrderByDescending(g => g);
-        Console.WriteLine("成绩从高到低：" + string.Join(", ", sorted));
+        Console.WriteLine("Grades from high to low: " + string.Join(", ", sorted));
     }
 }
 
@@ -39,8 +39,8 @@ class StudentSystem
 
         foreach (var student in students)
         {
-            Console.WriteLine($"\n学生：{student.Name}（ID: {student.StudentID}）");
-            Console.WriteLine($"平均成绩：{student.GetAverage():F2}");
+            Console.WriteLine($"\nStudent: {student.Name} (ID: {student.StudentID})");
+            Console.WriteLine($"Average Grade: {student.GetAverage():F2}");
             student.PrintSortedGrades();
         }
     }
