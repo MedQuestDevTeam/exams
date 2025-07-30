@@ -1,7 +1,6 @@
 wordFrequency("apple banana apple orange banana apple")
-// 输出：apple: 3, banana: 2, orange: 1
 function wordFrequency(text) {
-    const words = text.toLowerCase().match(/\b\w+\b/g); // 提取单词
+    const words = text.toLowerCase().match(/\b\w+\b/g);
     const freq = {};
 
     for (let word of words) {

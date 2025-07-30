@@ -1,5 +1,4 @@
-maxSubarraySum([-2, 1, -3, 4, -1, 2, 1, -5, 4]) // 输出 6
-// 因为最大子数组是 [4, -1, 2, 1]
+maxSubarraySum([-2, 1, -3, 4, -1, 2, 1, -5, 4]) 
 
 function maxSubarraySum(arr) {
     let maxSum = arr[0];
@@ -12,6 +11,3 @@ function maxSubarraySum(arr) {
 
     return maxSum;
 }
-
-// 测试
-console.log(maxSubarraySum([-2, 1, -3, 4, -1, 2, 1, -5, 4])); // 输出 6

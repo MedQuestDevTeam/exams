@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "运行文件管理系统",
+            "name": "FileSystemApp",
             "type": "coreclr",
             "request": "launch",
             "program": "${workspaceFolder}/bin/Debug/net9.0/FileSystemApp.dll",
@@ -15,7 +15,7 @@
             }
         },
         {
-            "name": "运行学生成绩系统",
+            "name": "StudentSystemApp",
             "type": "coreclr",
             "request": "launch",
             "program": "${workspaceFolder}/bin/Debug/net9.0/FileSystemApp.dll",

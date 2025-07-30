@@ -31,11 +31,35 @@ class StudentSystem
 {
     static void Main()
     {
-        List<Student> students = new List<Student>
+        List<Student> students = new List<Student>();
+
+        Console.Write("Enter the number of students: ");
+        int count = int.Parse(Console.ReadLine());
+
+        for (int i = 0; i < count; i++)
         {
-            new Student("Alice", "S001", new List<int> { 85, 92, 78 }),
-            new Student("Bob", "S002", new List<int> { 66, 75, 88 })
-        };
+            Console.WriteLine($"\nEnter information for student {i + 1}:");
+
+            Console.Write("Name: ");
+            string name = Console.ReadLine();
+
+            Console.Write("Student ID: ");
+            string id = Console.ReadLine();
+
+            Console.Write("Enter grades separated by spaces (e.g., 85 92 78): ");
+            string[] gradeInput = Console.ReadLine().Split(' ');
+            List<int> grades = new List<int>();
+
+            foreach (string g in gradeInput)
+            {
+                if (int.TryParse(g, out int grade))
+                    grades.Add(grade);
+            }
+
+            students.Add(new Student(name, id, grades));
+        }
+
+        Console.WriteLine("\n===== Student Results =====");
 
         foreach (var student in students)
         {
