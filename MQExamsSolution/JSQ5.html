@@ -1,0 +1,130 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="author" content="Kevin Tian" />
+    <title>Javascript Question 5</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: system-ui, Arial, sans-serif;
+            background: #fff;
+            color: #111;
+        }
+
+        .wrap {
+            max-width: 900px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        h1 {
+            margin-bottom: 6px;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .card {
+            border: 1px solid #ddd;
+            background: #f7f7f7;
+            border-radius: 12px;
+            padding: 16px;
+            margin-top: 20px;
+        }
+
+        label {
+            font-size: 14px;
+            color: #555;
+        }
+
+        input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin-right: 10px;
+        }
+
+        button {
+            padding: 10px 14px;
+            border-radius: 8px;
+            border: 1px solid #000;
+            background: #000;
+            color: #fff;
+            cursor: pointer;
+        }
+
+            button:hover {
+                background: #fff;
+                color: #000;
+            }
+
+        .result {
+            margin-top: 12px;
+            padding: 10px;
+            border: 1px dashed #ccc;
+            background: #fff;
+            font-family: monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <h1>Javascript Question 5</h1>
+        <p>
+            Implement a JavaScript function that takes a date parameter and calculates
+            the number of working days and non-working days in the month of that date.
+        </p>
+
+        <div class="card">
+            <label>Select a date:</label><br><br>
+            <input type="date" id="dateInput">
+            <button onclick="calculate()">Calculate</button>
+
+            <div class="result">
+                Working Days: <b id="workDays">-</b><br>
+                Non-Working Days: <b id="nonWorkDays">-</b>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function countDaysInMonth(date) {
+            let year = date.getFullYear();
+            let month = date.getMonth();
+
+            let first = new Date(year, month, 1);
+            let last = new Date(year, month + 1, 0);
+
+            let working = 0;
+            let nonWorking = 0;
+
+            for (let d = new Date(first); d <= last; d.setDate(d.getDate() + 1)) {
+                let day = d.getDay(); // 0=Sun, 6=Sat
+                if (day === 0 || day === 6)
+                    nonWorking++;
+                else
+                    working++;
+            }
+
+            return { working, nonWorking };
+        }
+
+        function calculate() {
+            let value = document.getElementById("dateInput").value;
+            if (!value) return;
+
+            let date = new Date(value);
+            let result = countDaysInMonth(date);
+
+            document.getElementById("workDays").innerText = result.working;
+            document.getElementById("nonWorkDays").innerText = result.nonWorking;
+        }
+    </script>
+
+</body>
+</html>

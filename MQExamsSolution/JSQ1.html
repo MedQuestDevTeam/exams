@@ -1,0 +1,226 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="author" content="Kevin Tian" />
+  <title>Javascript Question 1</title>
+
+  <style>
+    :root{
+      --bg:#fff;
+      --fg:#111;
+      --muted:#666;
+      --border:#ddd;
+      --card:#f7f7f7;
+    }
+    *{ box-sizing:border-box; }
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background:var(--bg);
+      color:var(--fg);
+      line-height:1.5;
+    }
+    .wrap{
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 28px 18px 60px;
+    }
+    h1{ margin: 0 0 8px; font-size: 28px; }
+    p{ margin: 0 0 18px; color: var(--muted); }
+
+    .card{
+      border:1px solid var(--border);
+      background:var(--card);
+      border-radius:14px;
+      padding:16px;
+      margin: 18px 0 22px;
+    }
+
+    .row{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:center;
+    }
+
+    label{
+      font-size:14px;
+      color:var(--muted);
+      display:block;
+      margin: 0 0 6px;
+    }
+
+    input[type="text"]{
+      width: min(720px, 100%);
+      padding: 12px 12px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background:#fff;
+      color:var(--fg);
+      outline:none;
+    }
+    input[type="text"]:focus{
+      border-color:#000;
+    }
+
+    button{
+      padding: 12px 16px;
+      border-radius: 10px;
+      border:1px solid #000;
+      background:#000;
+      color:#fff;
+      cursor:pointer;
+      transition: 0.15s ease;
+      white-space:nowrap;
+    }
+    button:hover{
+      background:#fff;
+      color:#000;
+    }
+
+    .result{
+      margin-top: 12px;
+      padding: 12px;
+      border-radius: 10px;
+      border:1px dashed var(--border);
+      background:#fff;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+    .result b{ font-family: inherit; }
+    .error{ color:#b00020; }
+
+    table{
+      width:100%;
+      border-collapse:collapse;
+      background:#fff;
+      border-radius: 12px;
+      overflow:hidden;
+      border:1px solid var(--border);
+    }
+    th, td{
+      padding:10px 10px;
+      border-bottom:1px solid var(--border);
+      text-align:left;
+      font-size:14px;
+    }
+    th{ background:#000; color:#fff; font-weight:600; }
+    tr:last-child td{ border-bottom:none; }
+    code{
+      background:#eee;
+      padding:2px 6px;
+      border-radius:6px;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <h1>Javascript Question 1</h1>
+    <p>
+      Implement a JavaScript function that takes an array parameter and calculates the
+      maximum sum of continuous subarrays in the array.
+    </p>
+
+    <!-- Calculator -->
+    <div class="card">
+      <label for="arrInput">Enter numbers (comma separated)</label>
+      <div class="row">
+        <input id="arrInput" type="text" placeholder="-2,1,-3,4,-1,2,1,-5,4" />
+        <button id="btnCalc" type="button">Calculate</button>
+      </div>
+
+      <div id="resultBox" class="result">
+        Result: <b id="resultValue">-</b>
+        <div id="msg" class="error" style="margin-top:6px;"></div>
+      </div>
+
+      <p style="margin-top:12px; color:var(--muted); font-size:14px;">
+        Tip: use commas only. Example: <code>5,-2,3,4</code>
+      </p>
+    </div>
+
+    <!-- Sample inputs -->
+    <h3 style="margin: 8px 0 10px;">Sample Input</h3>
+    <table>
+      <tr>
+        <th style="width:60px;">No</th>
+        <th>Input Array</th>
+        <th style="width:190px;">Max Subarray Sum</th>
+      </tr>
+      <tr><td>1</td><td>-2,1,-3,4,-1,2,1,-5,4</td><td>6</td></tr>
+      <tr><td>2</td><td>5,-2,3,4</td><td>10</td></tr>
+      <tr><td>3</td><td>1,2,3,4,5</td><td>15</td></tr>
+      <tr><td>4</td><td>-1,-2,-3,-4</td><td>-1</td></tr>
+      <tr><td>5</td><td>3,-1,2,-1</td><td>4</td></tr>
+      <tr><td>6</td><td>2,-5,6,-2,3</td><td>7</td></tr>
+      <tr><td>7</td><td>4,-1,2,1</td><td>6</td></tr>
+      <tr><td>8</td><td>-3,4,-1,2,-6,3,1</td><td>5</td></tr>
+      <tr><td>9</td><td>10,-3,2,-1,4</td><td>12</td></tr>
+      <tr><td>10</td><td>-2,5,-1,2,-3,4,-1</td><td>7</td></tr>
+    </table>
+  </div>
+
+  <script>
+    // Kadane's Algorithm
+    function maxSubarraySum(arr) {
+      let best = arr[0];
+      let current = arr[0];
+
+      for (let i = 1; i < arr.length; i++) {
+        const x = arr[i];
+        current = Math.max(x, current + x);
+        best = Math.max(best, current);
+      }
+      return best;
+    }
+
+    function parseNumberList(text) {
+      // Allow spaces, but split by comma
+      const parts = text.split(",").map(s => s.trim()).filter(s => s.length > 0);
+      if (parts.length === 0) return { ok: false, error: "Please enter at least 1 number." };
+
+      const nums = [];
+      for (let i = 0; i < parts.length; i++) {
+        const n = Number(parts[i]);
+        if (!Number.isFinite(n)) {
+          return { ok: false, error: "Invalid number at position " + (i + 1) + ": " + parts[i] };
+        }
+        nums.push(n);
+      }
+      return { ok: true, value: nums };
+    }
+
+    const arrInput = document.getElementById("arrInput");
+    const btnCalc = document.getElementById("btnCalc");
+    const resultValue = document.getElementById("resultValue");
+    const msg = document.getElementById("msg");
+
+    function calculate() {
+      msg.textContent = "";
+
+      const raw = arrInput.value || "";
+      const parsed = parseNumberList(raw);
+
+      if (!parsed.ok) {
+        resultValue.textContent = "-";
+        msg.textContent = parsed.error;
+        return;
+      }
+
+      const arr = parsed.value;
+      const result = maxSubarraySum(arr);
+      resultValue.textContent = result;
+    }
+
+    btnCalc.addEventListener("click", calculate);
+
+    // Optional: press Enter to calculate
+    arrInput.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") calculate();
+    });
+  </script>
+</body>
+</html>
