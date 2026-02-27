@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ChallengeConsoleAppFileSystem/ChallengeConsoleAppFileSystem.csproj" />
+  <Project Path="ChallengeConsoleAppOnlineStore/ChallengeConsoleAppOnlineStore.csproj" />
+</Solution>
