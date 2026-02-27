@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="NodeConsoleAppWordCount/NodeConsoleAppWordCount.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>
